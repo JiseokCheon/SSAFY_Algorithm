@@ -3,7 +3,7 @@ package com.ssafy.im;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_3060_욕심쟁이돼지 {
+public class BOJ_3060_김혜진 {
 	static String src = "2\r\n" + 
 			"21\r\n" + 
 			"1 2 3 4 5 6\r\n" + 
@@ -11,7 +11,7 @@ public class BOJ_3060_욕심쟁이돼지 {
 			"1 2 3 4 5 7";
 	
 	static int N;
-	static int[] pigs = new int[7];
+	static int[] pigs = new int[6];
 	static int days;
 	
 	public static void main(String[] args) throws Exception {
@@ -26,7 +26,7 @@ public class BOJ_3060_욕심쟁이돼지 {
 			
 			int sum = 0;
 			
-			for(int i=1; i<=6; i++) {
+			for(int i=0; i<6; i++) {
 				pigs[i] = Integer.parseInt(st.nextToken());
 				sum += pigs[i];
 			}
