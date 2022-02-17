@@ -8,19 +8,17 @@ public class Main {
 		StringTokenizer st = new StringTokenizer(in.readLine(), " ");
 		int N = Integer.parseInt(st.nextToken());
 		int L = Integer.parseInt(st.nextToken());
-		int[][] tl = new int[N][3];
 		int total = 0;
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(in.readLine(), " ");
-			tl[i][0] = Integer.parseInt(st.nextToken());
-			tl[i][1] = Integer.parseInt(st.nextToken());
-			tl[i][2] = Integer.parseInt(st.nextToken());
+			int D = Integer.parseInt(st.nextToken()) + total;
+			int R = Integer.parseInt(st.nextToken());
+			int G = Integer.parseInt(st.nextToken());
 			
-			tl[i][0] += total;
-			if (tl[i][0] % (tl[i][1] + tl[i][2]) < tl[i][1])
-				total += tl[i][1] - (tl[i][0] % (tl[i][1] + tl[i][2]));
+			if (D % (R + G) < R)
+				total += (R - D % (R + G));
 		}
-		System.out.println(L+total);
+		System.out.println(L + total);
 	}
 
 }
