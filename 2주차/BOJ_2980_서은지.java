@@ -16,7 +16,7 @@ public class Main {
 			int G = Integer.parseInt(st.nextToken());
 			
 			if (D % (R + G) < R)
-				total += (R - D % (R + G));
+				total += R - D % (R + G);
 		}
 		System.out.println(L + total);
 	}
