@@ -3,7 +3,7 @@ package com.ssafy.study;
 import java.util.*;
 import java.io.*;
 
-public class D3_1860_진기의최고급붕어빵_서은지 {
+public class SWEA_1860_진기의최고급붕어빵_서은지 {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
