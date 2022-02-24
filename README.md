@@ -25,5 +25,5 @@
 
 # 문제 목록
 * 1주차 : `SWEA_13428`, `SWEA_2005`, `BOJ_2477`, `SWEA_7985`, `BOJ_2635`
-* 2주차 : `BOJ_3060`, `BOJ_2947`, `BOJ_10709`, `BOJ_2980`, `BOJ_1091`, `BOJ_10431`, `BOJ_3085`
-* 3주차 : `BOJ_1063`, `BOJ_2840`, `BOJ_1417`, `SWEA_1860`, `SWEA_7272`, `BOJ_2941`
+* 2주차 : [`BOJ_3060`](https://www.acmicpc.net/problem/3060), [`BOJ_2947`](https://www.acmicpc.net/problem/2947), [`BOJ_10709`](https://www.acmicpc.net/problem/10709), [`BOJ_2980`](https://www.acmicpc.net/problem/2980), [`BOJ_1091`](https://www.acmicpc.net/problem/1091), [`BOJ_10431`](https://www.acmicpc.net/problem/10431), [`BOJ_3085`](https://www.acmicpc.net/problem/3085)
+* 3주차 : [`BOJ_1063`](https://www.acmicpc.net/problem/1063), [`BOJ_2840`](https://www.acmicpc.net/problem/2840), [`BOJ_1417`](https://www.acmicpc.net/problem/1417), [`SWEA_1860`](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc), [`SWEA_7272`](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWl0ZQ8qn7UDFAXz), [`BOJ_2941`](https://www.acmicpc.net/problem/2941)
