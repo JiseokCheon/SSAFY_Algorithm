@@ -3,7 +3,7 @@ package com.ssafy.im;
 import java.io.*;
 import java.util.*;
 
-public class BJ_2941_크로아티아알파벳_김혜진 {
+public class BOJ_2941_크로아티아알파벳_김혜진 {
 	static String src ="ljes=njak";
 	//ljes=njak 6
 	//ddz=z= 3
