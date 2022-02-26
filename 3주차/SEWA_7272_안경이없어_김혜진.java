@@ -3,7 +3,7 @@ package algorithm_SWEA;
 import java.io.*;
 import java.util.*;
 
-public class D3_7272_안경이없어_김혜진 {
+public class _7272_안경이없어_김혜진 {
 	static String src = "5\r\n" + "ABCD EFGH\r\n" + "ABCD PBZO\r\n" + "PRQO OQAD\r\n" + "ZXCV HJKL\r\n" + "BBBB BBB";
 //	#1 DIFF
 //	#2 SAME
