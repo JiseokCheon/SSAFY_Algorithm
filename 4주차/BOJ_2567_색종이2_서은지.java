@@ -25,7 +25,7 @@ public class BOJ_2567_색종이2_서은지 {
 			for (int j = 0; j < 101; j++) {
 				if ((i == 0 || i == 100) && arr[i][j] == 1)
 					cnt++;
-				else if ((j == 0 || j == 100) && arr[i][j] == 1)
+				if ((j == 0 || j == 100) && arr[i][j] == 1)
 					cnt++;
 				if (arr[i][j] != arr[i+1][j])
 					cnt++;
