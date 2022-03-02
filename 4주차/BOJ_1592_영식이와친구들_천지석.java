@@ -20,10 +20,10 @@ public class Main {
                 break;
             }
             count++;
-
+            // 홀수일때
             if (arr[current] % 2 == 1) {
                 current = (current + L) % N;
-            } else {
+            } else {    // 짝수일때
                 current = (N + current - L) % N;
             }
         }
