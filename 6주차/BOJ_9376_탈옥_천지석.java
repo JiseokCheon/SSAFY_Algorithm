@@ -1,8 +1,9 @@
 package com.company;
 
-import java.io.*;
-import java.util.*;
-
+// 최대한 문이 겹치도록 해야함
+// -> 죄수 두명이 만나서 같이 나가도록 해서 문에 겹치도록 함
+// 만나서 밖으로 나감 -> 반대로 하면 밖에서 죄수 두명이 만나는 지점까지 이동
+// -> 상근이가 밖에서 안으로 들어온다고 생각해서 3명이 만나는 지점을 찾아줌
 public class Main {
     static int[][] d = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     static int h, w, answer;
@@ -21,7 +22,7 @@ public class Main {
             w = Integer.parseInt(st.nextToken());
 
             arr = new int[h + 2][w + 2];        // 감옥
-            route = new int[3][h + 2][w + 2];   // 죄수와 상근이?? 경로
+            route = new int[3][h + 2][w + 2];   // 죄수와 상근이가각 좌표마다 이동할때 만나는 문의 갯수 저장
             int[] prisonerA = new int[3];   // 죄수 위치
             int[] prisonerB = new int[3];   // 죄수 위치
             int[] sang = {0, 0, 0};         // 상근이?
@@ -100,4 +101,3 @@ public class Main {
         }
     }
 }
-
