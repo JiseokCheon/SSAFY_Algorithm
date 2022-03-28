@@ -43,5 +43,5 @@
 [`BOJ_1655`](https://www.acmicpc.net/problem/1655)
 
 * 8주차 : [`BOJ_14502`](https://www.acmicpc.net/problem/14502), [`BOJ_1003`](https://www.acmicpc.net/problem/1003), [`BOJ_14503`](https://www.acmicpc.net/problem/14503), [`BOJ_1012`](https://www.acmicpc.net/problem/1012), 
-[`BOJ_14890`](https://www.acmicpc.net/problem/14890) / [`BOJ_1107`](https://www.acmicpc.net/problem/1107), 
+[`BOJ_14890`](https://www.acmicpc.net/problem/14890) [`BOJ_1107`](https://www.acmicpc.net/problem/1107) / 
 [`BOJ_3197`](https://www.acmicpc.net/problem/3197), [`BOJ_11401`](https://www.acmicpc.net/problem/11401)
