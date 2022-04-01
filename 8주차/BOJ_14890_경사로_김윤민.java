@@ -1,5 +1,3 @@
-package study_mar;
-
 import java.io.*;
 import java.util.StringTokenizer;
 
