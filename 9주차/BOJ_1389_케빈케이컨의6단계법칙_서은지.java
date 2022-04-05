@@ -3,7 +3,7 @@ package com.ssafy.study.day0405;
 import java.util.*;
 import java.io.*;
 
-public class BOJ_1389_케빈케이컨의6단계법칙 {
+public class BOJ_1389_케빈케이컨의6단계법칙_서은지 {
 
 	// bfs
 	public static void main(String[] args) throws Exception {
