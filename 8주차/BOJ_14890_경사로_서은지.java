@@ -3,7 +3,7 @@ package com.ssafy.study.day0401;
 import java.util.*;
 import java.io.*;
 
-public class BJ_14890_경사로_서은지 {
+public class BOJ_14890_경사로_서은지 {
 	static int N, L, roads;
 	static int[][] map, map2;
 
