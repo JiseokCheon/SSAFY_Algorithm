@@ -6,7 +6,7 @@ import java.io.*;
 public class BJ_1463_1로만들기_서은지 {
 	static int min;
 
-	// dfs, bfs
+	// dfs(112), bfs(288)
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(in.readLine());
@@ -60,7 +60,7 @@ public class BJ_1463_1로만들기_서은지 {
 
 	}
 
-	// dp
+	// dp(120)
 	static int N;
 	static int[] dp;
 
