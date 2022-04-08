@@ -5,8 +5,6 @@ import java.util.*;
  * 0 : 빈칸, 6: 벽 , 1~5: cctv 
  */
 public class BJ_15683_감시 {
-	public static String str = "4 6\r\n" + "0 0 0 0 0 0\r\n" + "0 0 0 0 0 0\r\n" + "0 0 1 0 6 0\r\n" + "0 0 0 0 0 0";
-
 	public static int[][] move = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 	public static int N, M, min,  K; //K: cctv 개수
 	public static List<CCTV> list; // cctv들의 정보 저장
