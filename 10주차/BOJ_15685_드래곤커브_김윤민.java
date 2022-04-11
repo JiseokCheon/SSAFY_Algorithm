@@ -3,7 +3,7 @@ package April;
 import java.io.*;
 import java.util.*;
 
-public class BOJ_15685_드래곤커브 {
+public class BOJ_15685_드래곤커브_김윤민 {
 	public static void main(String[] args) throws IOException {
 		int [][] move = {{0,1},{-1,0},{0,-1},{1,0}};
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
