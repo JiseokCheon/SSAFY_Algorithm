@@ -59,3 +59,8 @@
 [`BOJ_17144`](https://www.acmicpc.net/problem/17144), [`BOJ_1927`](https://www.acmicpc.net/problem/1927), 
 [`BOJ_17143`](https://www.acmicpc.net/problem/17143) [`BOJ_1931`](https://www.acmicpc.net/problem/1931) / 
 [`BOJ_6549`](https://www.acmicpc.net/problem/6549), [`BOJ_6087`](https://www.acmicpc.net/problem/6087)
+
+* 12주차 : [`BOJ_17140`](https://www.acmicpc.net/problem/17140), [`BOJ_1992`](https://www.acmicpc.net/problem/1992), 
+[`BOJ_17142`](https://www.acmicpc.net/problem/17142), [`BOJ_2178`](https://www.acmicpc.net/problem/2178), 
+[`BOJ_17779`](https://www.acmicpc.net/problem/17779) [`BOJ_2579`](https://www.acmicpc.net/problem/2579) / 
+[`BOJ_11066`](https://www.acmicpc.net/problem/11066), [`BOJ_11049`](https://www.acmicpc.net/problem/11049)
