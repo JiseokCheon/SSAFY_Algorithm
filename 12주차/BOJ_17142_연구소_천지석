@@ -1,0 +1,99 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    static ArrayList<int[]> virus;
+    static int[][] arr;
+    static int[][] d = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    static int N, M, count, answer;
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        virus = new ArrayList<>();
+
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        count = 0;
+        answer = 100000;
+
+        arr = new int[N][N];
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < N; j++) {
+                arr[i][j] = Integer.parseInt(st.nextToken()) - 2;
+                if (arr[i][j] == 0) {
+                    virus.add(new int[]{i, j, 1});
+                }
+                if (arr[i][j] == -2) {
+                    count++;
+                }
+            }
+        }
+
+        com(0, new ArrayList<>());
+
+        System.out.println(answer == 100000 ? -1 : answer);
+    }
+
+    static void com(int index, ArrayList<int[]> list) {
+
+        if (list.size() == M) {
+
+            bfs(list);
+            return;
+        }
+
+        for (int i = index; i < virus.size(); i++) {
+            list.add(virus.get(i));
+            com(i + 1, list);
+            list.remove(list.size() - 1);
+        }
+    }
+
+
+    static void bfs(ArrayList<int[]> list) {
+        int[][] temp = new int[N][N];
+        PriorityQueue<int[]> pq = new PriorityQueue<>((o1, o2) -> o1[2] - o2[2]);
+        pq.addAll(list);
+
+        for (int i = 0; i < N; i++) {
+            temp[i] = arr[i].clone();
+        }
+
+        for (int[] i : list) {
+            temp[i[0]][i[1]] = 1;
+        }
+
+
+        int cnt = 0;
+        int time = 0;
+
+        while (!pq.isEmpty()) {
+            if (cnt == count) {
+                break;
+            }
+
+            int[] node = pq.poll();
+            time = Math.max(temp[node[0]][node[1]], time);
+
+            for (int[] i : d) {
+                int nextX = node[0] + i[0];
+                int nextY = node[1] + i[1];
+
+                if (nextX >= 0 && nextY >= 0 && nextX < N && nextY < N
+                        && (temp[nextX][nextY] == -2 || temp[nextX][nextY] == 0)) {
+                    pq.add(new int[]{nextX, nextY, node[2] + 1});
+                    if (temp[nextX][nextY] == -2) {
+                        cnt++;
+                    }
+                    temp[nextX][nextY] = temp[node[0]][node[1]] + 1;
+                }
+            }
+        }
+
+        if (cnt == count) {
+            answer = Math.min(time, answer);
+        }
+    }
+}
