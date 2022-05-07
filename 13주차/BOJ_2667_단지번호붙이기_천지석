@@ -1,0 +1,51 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    static int N;
+    static int[][] d = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    static boolean[][] visited;
+    static String[] s;
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        N = Integer.parseInt(br.readLine());
+        visited = new boolean[N][N];
+        s = new String[N];
+
+        for (int i = 0; i < N; i++) {
+            s[i] = br.readLine().trim();
+        }
+
+
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (s[i].charAt(j) == '1' && !visited[i][j]) {
+                    visited[i][j] = true;
+                    pq.add(dfs(i, j));
+                }
+            }
+        }
+        System.out.println(pq.size());
+        while (!pq.isEmpty()) {
+            System.out.println(pq.poll());
+        }
+    }
+
+    static int dfs(int x, int y) {
+        int count = 1;
+        for (int i = 0; i < 4; i++) {
+            int nextX = d[i][0] + x;
+            int nextY = d[i][1] + y;
+
+            if (nextX >= 0 && nextY >= 0 && nextX < N && nextY < N
+                    && !visited[nextX][nextY] && s[nextX].charAt(nextY) == '1') {
+                visited[nextX][nextY] = true;
+                count += dfs(nextX, nextY);
+            }
+        }
+        return count;
+    }
+}
