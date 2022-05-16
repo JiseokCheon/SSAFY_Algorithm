@@ -36,7 +36,6 @@ public class BOJ_7569_토마토_서은지 {
 			System.out.println(0);
 		else {
 			int time = 0;
-			int cnt = 0;
 			int ans = -1;
 			outer: while (!queue.isEmpty()) {
 				int size = queue.size();
@@ -49,7 +48,7 @@ public class BOJ_7569_토마토_서은지 {
 
 						if (dr >= 0 && dc >= 0 && dh >= 0 && dr < N && dc < M && dh < H && !visited[dh][dr][dc]
 								&& tomatoes[dh][dr][dc] != -1) {
-							if (++cnt == unripe) {
+							if (--unripe == 0) {
 								ans = time + 1;
 								break outer;
 							}
