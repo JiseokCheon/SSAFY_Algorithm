@@ -5,7 +5,7 @@
 매주 알고리즘 문제풀이를 진행합니다.
 
 * 장소 : 오프라인 & 온라인
-* 시간 : 풀이 리뷰 - 화,금 7시 30분
+* 시간 : 풀이 리뷰 - 월,목 7시 30분
 * 방식
   * 매주 한 사람씩 해당 주에 풀 문제 선정
   * 매일 한문제씩 풀이
@@ -79,3 +79,8 @@
 [`BOJ_20055`](https://www.acmicpc.net/problem/20055), [`BOJ_7576`](https://www.acmicpc.net/problem/7576), 
 [`BOJ_20056`](https://www.acmicpc.net/problem/20056) [`BOJ_7662`](https://www.acmicpc.net/problem/7662) / 
 [`BOJ_9370`](https://www.acmicpc.net/problem/9370), [`BOJ_1981`](https://www.acmicpc.net/problem/1981)
+
+* 16주차 : [`BOJ_20057`](https://www.acmicpc.net/problem/20057), [`BOJ_9019`](https://www.acmicpc.net/problem/7569), 
+[`BOJ_20058`](https://www.acmicpc.net/problem/20058), [`BOJ_9095`](https://www.acmicpc.net/problem/7576), 
+[`BOJ_21608`](https://www.acmicpc.net/problem/21608) [`BOJ_9375`](https://www.acmicpc.net/problem/7662) / 
+[`BOJ_11657`](https://www.acmicpc.net/problem/9370), [`BOJ_2931`](https://www.acmicpc.net/problem/1981)
