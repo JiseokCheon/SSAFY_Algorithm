@@ -80,7 +80,7 @@
 [`BOJ_20056`](https://www.acmicpc.net/problem/20056) [`BOJ_7662`](https://www.acmicpc.net/problem/7662) / 
 [`BOJ_9370`](https://www.acmicpc.net/problem/9370), [`BOJ_1981`](https://www.acmicpc.net/problem/1981)
 
-* 16주차 : [`BOJ_20057`](https://www.acmicpc.net/problem/20057), [`BOJ_9019`](https://www.acmicpc.net/problem/7569), 
-[`BOJ_20058`](https://www.acmicpc.net/problem/20058), [`BOJ_9095`](https://www.acmicpc.net/problem/7576), 
-[`BOJ_21608`](https://www.acmicpc.net/problem/21608) [`BOJ_9375`](https://www.acmicpc.net/problem/7662) / 
-[`BOJ_11657`](https://www.acmicpc.net/problem/9370), [`BOJ_2931`](https://www.acmicpc.net/problem/1981)
+* 16주차 : [`BOJ_20057`](https://www.acmicpc.net/problem/20057), [`BOJ_9019`](https://www.acmicpc.net/problem/9019), 
+[`BOJ_20058`](https://www.acmicpc.net/problem/20058), [`BOJ_9095`](https://www.acmicpc.net/problem/9095), 
+[`BOJ_21608`](https://www.acmicpc.net/problem/21608) [`BOJ_9375`](https://www.acmicpc.net/problem/9375) / 
+[`BOJ_11657`](https://www.acmicpc.net/problem/11657), [`BOJ_2931`](https://www.acmicpc.net/problem/2931)
