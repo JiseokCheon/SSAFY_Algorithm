@@ -3,7 +3,7 @@ package July;
 import java.io.*;
 import java.util.*;
 
-public class BOJ_20058_마법사상어와파이어스톰_ {
+public class BOJ_20058_마법사상어와파이어스톰_김윤민 {
 	static int[][] move = {{0,1},{0,-1},{1,0},{-1,0}};
 	static int[][] map;
 	static int sum;
