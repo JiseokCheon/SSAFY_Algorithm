@@ -1,7 +1,9 @@
 package July;
 
 import java.io.*;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
 
 public class BOJ_21610_마법사상어와비바라기 {
 	public static void main(String[] args) throws IOException {
@@ -44,14 +46,10 @@ public class BOJ_21610_마법사상어와비바라기 {
 				if(ni<0) ni = (ni+N*50)%N; else if(ni>=N) ni = ni%N; //1행 N행이 연결 되어있으므로
 				if(nj<0) nj = (nj+N*50)%N; else if(nj>=N) nj = nj%N; 
 				que.offer(new int[] {ni, nj});
+				map[ni][nj]++; //구름이 있는 칸에 물 1 증가
 			}
-			//구름이 있는 칸에 물 1 증가
+			
 			int n = que.size();
-			for (int c = 0; c < n; c++) {
-				int i = que.peek()[0], j = que.poll()[1];
-				map[i][j]++; // 1증가
-				que.add(new int[] {i,j});
-			}
 			//구름 제거 및 대각선 정보 파악해서 물 더해주기
 			for (int c = 0; c < n; c++) {
 				int i = que.peek()[0], j = que.poll()[1];
