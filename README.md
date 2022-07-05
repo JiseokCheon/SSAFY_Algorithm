@@ -14,12 +14,24 @@
 
 * 목표 : 삼성 SW 역량 테스트 A, A+ 등급
 
+<hr>
+2022년 7월 4일 재정비 내용
+
+* BOJ : 백준
+* PRO : 프로그래머스
+
+  * 월/수/금 : https://www.acmicpc.net/workbook/view/4357
+  * 화/목/토 : https://school.programmers.co.kr/learn/challenges
+
+
 <br>
 
 # 파일 및 폴더
 * 주차별 폴더/문제풀이사이트_문제번호_문제이름_이름.java
 
   * 예시) `1주차/BOJ_2559_수열_천지석.java`
+  
+  * 예시) `1주차/PRO_문자열압축_천지석.java`
   
   
   
@@ -94,3 +106,8 @@
 [`BOJ_23289`](https://www.acmicpc.net/problem/23289), [`BOJ_11286`](https://www.acmicpc.net/problem/11286), 
 [`BOJ_23290`](https://www.acmicpc.net/problem/23290) [`BOJ_11399`](https://www.acmicpc.net/problem/11399) / 
 [`BOJ_2151`](https://www.acmicpc.net/problem/2151), [`BOJ_16954`](https://www.acmicpc.net/problem/16954)
+
+* 19주차 : [`BOJ_23291`](https://www.acmicpc.net/problem/23291), [`PRO_60057`](https://school.programmers.co.kr/learn/courses/30/lessons/60057), 
+[`BOJ_15591`](https://www.acmicpc.net/problem/15591), [`PRO_42888
+`](https://school.programmers.co.kr/learn/courses/30/lessons/42888), 
+[`BOJ_10021`](https://www.acmicpc.net/problem/10021) [`PRO_17676`](https://school.programmers.co.kr/learn/courses/30/lessons/17676)
