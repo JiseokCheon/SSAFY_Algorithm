@@ -107,7 +107,8 @@
 [`BOJ_23290`](https://www.acmicpc.net/problem/23290) [`BOJ_11399`](https://www.acmicpc.net/problem/11399) / 
 [`BOJ_2151`](https://www.acmicpc.net/problem/2151), [`BOJ_16954`](https://www.acmicpc.net/problem/16954)
 
-* 19주차 : [`BOJ_23291`](https://www.acmicpc.net/problem/23291), [`PRO_60057`](https://school.programmers.co.kr/learn/courses/30/lessons/60057), 
-[`BOJ_15591`](https://www.acmicpc.net/problem/15591), [`PRO_42888
-`](https://school.programmers.co.kr/learn/courses/30/lessons/42888), 
-[`BOJ_10021`](https://www.acmicpc.net/problem/10021) [`PRO_17676`](https://school.programmers.co.kr/learn/courses/30/lessons/17676)
+* 19주차 : [`BOJ_23291`](https://www.acmicpc.net/problem/23291), [`PRO_60057`(https://school.programmers.co.kr/learn/courses/30/lessons/60057), 
+[`BOJ_15591`](https://www.acmicpc.net/problem/15591), 
+[`PRO_42888`](https://school.programmers.co.kr/learn/courses/30/lessons/42888), 
+[`BOJ_10021`](https://www.acmicpc.net/problem/10021) 
+[`PRO_17676`](https://school.programmers.co.kr/learn/courses/30/lessons/17676)
