@@ -110,5 +110,5 @@
 * 19주차 : [`BOJ_23291`](https://www.acmicpc.net/problem/23291), [`PRO_60057`](https://school.programmers.co.kr/learn/courses/30/lessons/60057), 
 [`BOJ_15591`](https://www.acmicpc.net/problem/15591), 
 [`PRO_42888`](https://school.programmers.co.kr/learn/courses/30/lessons/42888), 
-[`BOJ_10021`](https://www.acmicpc.net/problem/10021) 
+[`BOJ_17780`](https://www.acmicpc.net/problem/17780) 
 [`PRO_17676`](https://school.programmers.co.kr/learn/courses/30/lessons/17676)
