@@ -117,4 +117,4 @@
 [`BOJ_16639`](https://www.acmicpc.net/problem/16639), 
 [`PRO_1835`](https://school.programmers.co.kr/learn/courses/30/lessons/1835), 
 [`BOJ_1800`](https://www.acmicpc.net/problem/1800) 
-[`PRO_62048`](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
+[`PRO_62048`](https://school.programmers.co.kr/learn/courses/30/lessons/62048?language=java)
