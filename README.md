@@ -112,3 +112,9 @@
 [`PRO_42888`](https://school.programmers.co.kr/learn/courses/30/lessons/42888), 
 [`BOJ_17780`](https://www.acmicpc.net/problem/17780) 
 [`PRO_17676`](https://school.programmers.co.kr/learn/courses/30/lessons/17676)
+
+* 20주차 : [`BOJ_18500`](https://www.acmicpc.net/problem/18500), [`PRO_1829`](https://school.programmers.co.kr/learn/courses/30/lessons/1829), 
+[`BOJ_16639`](https://www.acmicpc.net/problem/16639), 
+[`PRO_1835`](https://school.programmers.co.kr/learn/courses/30/lessons/1835), 
+[`BOJ_1800`](https://www.acmicpc.net/problem/1800) 
+[`PRO_62048`](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
